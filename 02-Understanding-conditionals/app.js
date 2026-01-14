@@ -1,3 +1,5 @@
+
+
 // Q. Valid Voter
 // let age = Number(prompt("Enter your age"));
 // if(isNaN(age)){
