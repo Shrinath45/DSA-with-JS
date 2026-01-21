@@ -20,7 +20,7 @@ let prompt = require('prompt-sync')();
 // console.log(str.slice(-5, -1)); //Hell
 
 
-// 3. Substring :- Similar to slice, but n negative indexes.
+// 3. Substring :- Similar to slice, but no negative indexes.
 // let str = 'Hello';
 // console.log(str.substring(1, 5));   // ello
 // console.log(str.substring(0));  // Hello

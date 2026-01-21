@@ -58,6 +58,8 @@ const prompt = require("prompt-sync")();
 // }
 // console.log(arr);
 
+
+
 // Q. Right rotation by k element
 // let arr = [1, 2, 3, 4, 5];
 // let k = Number(prompt("Enter value of k: "));
@@ -71,6 +73,8 @@ const prompt = require("prompt-sync")();
 // }
 // console.log("Rotation value: " + k);
 // console.log(arr);
+
+
 
 // let arr = [1, 2, 3, 4, 5];
 // let k = Number(prompt("Enter value of k: "));
@@ -97,6 +101,7 @@ const prompt = require("prompt-sync")();
 //     }
 // }
 // console.log(arr);
+
 
 // Remove duplicate elements from an sorted array
 // let arr = [0, 0, 1, 1, 1, 2, 2, 3];
@@ -141,6 +146,8 @@ const prompt = require("prompt-sync")();
 // }
 // console.log(merge);
 
+
+
 // Q. Best time to buy and sell stocks
 // let arr = [1, 2, 3, 7, 6, 5];
 // let maxProfit = 0;
@@ -153,7 +160,7 @@ const prompt = require("prompt-sync")();
 // }
 // console.log(maxProfit);
 
-// Sort the color [0-red, 1-white, 2-blue]
+// Q. Sort the color [0-red, 1-white, 2-blue]
 // let arr = [1, 2, 0, 0, 2, 1, 2, 0, 1];
 // let i = 0,
 //   j = 0,
