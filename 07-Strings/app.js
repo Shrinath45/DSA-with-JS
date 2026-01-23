@@ -110,6 +110,7 @@ let prompt = require('prompt-sync')();
 //     }
 //     i++;
 //     j--;
+
 // }
 // if(palindrome){
 //     console.log("Palindrome");
@@ -145,3 +146,26 @@ let prompt = require('prompt-sync')();
 //         console.log(String.fromCharCode(i)+ " : " + arr[i]);
 //     }
 // }
+
+
+// Q. Find the score of a given string
+// hello :- (h-e) + (e-l) + (l-l) + (l-o)
+// let str = 'hello';
+// let score = 0;
+// for(let i = 0; i<str.length-1; i++){
+//     score += Math.abs(str.charCodeAt(i) - str.charCodeAt(i+1));
+// }
+// console.log(score);
+
+
+// Not added in the book
+
+// Q. Reverse the words of a strings
+// let str = prompt("Enter string: ");
+// let s = str.trim().split(/\s+/);
+// let rev = [];
+// for(let i = s.length-1; i>=0; i--){
+//     rev.push(s[i]);
+// }
+// let res = rev.join(" ");
+// console.log(res);
